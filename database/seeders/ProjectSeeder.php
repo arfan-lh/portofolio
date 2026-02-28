@@ -85,15 +85,15 @@ class ProjectSeeder extends Seeder
 
         // 4. Website Ordering Books (Tema: Perpustakaan)
         Project::create([
-            'title' => 'Web Ordering Books',
-            'description' => " Website pemesanan buku ini dikembangkan menggunakan framework Laravel dengan tujuan mempermudah proses pemesanan dan pengelolaan data buku secara digital. Sistem dirancang dengan arsitektur Model–View–Controller (MVC) untuk menjaga struktur kode tetap rapi dan terorganisir.
-                                Proyek ini berfokus pada pengembangan backend yang stabil, pengelolaan database, serta alur pemesanan yang mudah dipahami oleh pengguna.",
+            'title' => 'Produk Manager',
+            'description' => " Website ini dikembangkan menggunakan framework Laravel dengan tujuan mempermudah proses pengelolaan data dan aktivitas pengguna secara digital. Sistem dirancang menggunakan arsitektur Model–View–Controller (MVC) untuk menjaga struktur kode tetap rapi, terorganisir, dan mudah dikembangkan.
+                                Proyek ini berfokus pada pengembangan backend yang stabil, pengelolaan database yang terstruktur, serta penyediaan fitur-fitur inti seperti autentikasi pengguna, manajemen data (CRUD), dan dashboard informatif yang mudah dipahami oleh pengguna.",
             
             'features' => [
-                'Daftar & Detail Buku — Menampilkan informasi buku secara lengkap',
-                'Sistem Pemesanan Buku — Proses pemesanan yang terstruktur',
-                'Manajemen Data Buku — CRUD data buku melalui sistem backend',
-                'Arsitektur MVC Laravel — Pemisahan logika, tampilan, dan data',
+                'Registrasi Mudah – Proses pendaftaran dan login yang cepat dan aman.',
+                'Kelola Produk – Fitur CRUD untuk manajemen data produk secara efisien.',
+                'Dashboard Lengkap – Tampilan ringkasan data untuk memantau aktivitas sistem.',
+                
             ],
             'link' => 'https://github.com/arfan-lh/laravel-ordering-books.git',
             'tech_stack' => ['Laravel', 'PHP', 'MySQL', 'MVC Architecture'],
@@ -109,22 +109,23 @@ class ProjectSeeder extends Seeder
 
         // 5. Produk App (Tema: Gudang & Data)
         Project::create([
-            'title' => 'Produk App Management',
-            'description' =>' Website toko aplikasi ini merupakan proyek pengembangan web sederhana menggunakan bahasa Java. Sistem dirancang untuk menampilkan daftar aplikasi serta informasi detail setiap aplikasi. Fokus utama proyek ini adalah penerapan logika program yang terstruktur dan pengelolaan data yang rapi.
-                             Website ini menjadi media pembelajaran untuk memahami alur kerja aplikasi web berbasis Java.',
+            'title' => 'Java Web Product Manager',
+            'description' =>' TokoKu adalah aplikasi web berbasis Java (JSP & JDBC) yang digunakan untuk mengelola data produk secara digital. Sistem ini terintegrasi dengan database MySQL dan dikembangkan menggunakan konsep server-side rendering untuk memproses dan menampilkan data secara dinamis.
+                            Aplikasi ini berfokus pada pengelolaan data produk dengan fitur CRUD serta implementasi koneksi database secara langsung menggunakan JDBC.',
             
              'features' => [
-                'Daftar Aplikasi — Menampilkan kumpulan aplikasi yang tersedia',
-                'Detail Informasi Aplikasi — Informasi deskripsi dan detail aplikasi',
-                'Pengelolaan Data Aplikasi — Manajemen data berbasis Java',
-                'Struktur Program Terorganisir — Kode mudah dibaca dan dipahami',
+                'Manajemen Produk (CRUD) — Tambah, lihat, edit, dan hapus data produk',
+                'Integrasi Database — Menggunakan MySQL dengan koneksi JDBC',
+                'Berbasis Java Web — Dibangun dengan JSP untuk proses server-side',
+                'Kode Terstruktur — Mudah dikembangkan dan dipelihara',
             ],
             'link' => 'https://github.com/arfan-lh/tokoku.git',                 
             'tech_stack' => ['Java', 'HTML & CSS', 'Web Logic & Data Management'],
             'images' => [
-                'https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?w=800&q=80', // Gambar Gudang
-                'https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&q=80', // Gambar Data/Chart
-                'https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?w=800&q=80'  // Gambar Analisa
+                'images/Tokoku/Toko1.png',
+                'images/Tokoku/Toko2.png',
+                'images/Tokoku/Toko3.png',
+                'images/Tokoku/Toko4.png',
             ]
         ]);
     }
