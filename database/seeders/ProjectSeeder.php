@@ -98,9 +98,12 @@ class ProjectSeeder extends Seeder
             'link' => 'https://github.com/arfan-lh/laravel-ordering-books.git',
             'tech_stack' => ['Laravel', 'PHP', 'MySQL', 'MVC Architecture'],
             'images' => [
-                'https://images.unsplash.com/photo-1495446815901-a7297e633e8d?w=800&q=80', // Gambar Buku
-                'https://images.unsplash.com/photo-1481627834876-b7833e8f5570?w=800&q=80', // Gambar Perpustakaan
-                'https://images.unsplash.com/photo-1507842217121-9e93c54ded3c?w=800&q=80'  // Gambar Reading
+                'images/Books/bok1.png', // Gambar Buku
+                'images/Books/bok2.png', // Gambar Perpustakaan
+                'images/Books/bok3.png',
+                'images/Books/bok4.png',
+                'images/Books/bok5.png',
+                'images/Books/bok6.png',
             ]
         ]);
 
