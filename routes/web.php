@@ -11,8 +11,7 @@ Route::get('/project/{id}', [HomeController::class, 'show'])->name('project.show
 
 Route::post('/contact-send', [ContactController::class, 'store'])->name('contact.store');
 
-use App\Models\Project;
-
-Route::get('/cek-project', function () {
-    return Project::all();
+Route::get('/seed', function () {
+    Artisan::call('db:seed', ['--force' => true]);
+    return 'Seeder berhasil';
 });
