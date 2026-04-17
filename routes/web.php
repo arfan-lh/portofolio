@@ -11,7 +11,3 @@ Route::get('/project/{id}', [HomeController::class, 'show'])->name('project.show
 
 Route::post('/contact-send', [ContactController::class, 'store'])->name('contact.store');
 
-Route::get('/seed', function () {
-    Artisan::call('db:seed', ['--force' => true]);
-    return 'Seeder berhasil';
-});
