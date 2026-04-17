@@ -11,8 +11,3 @@ Route::get('/project/{id}', [HomeController::class, 'show'])->name('project.show
 
 Route::post('/contact-send', [ContactController::class, 'store'])->name('contact.store');
 
-// ROUTE MIGRATE SEMENTARA
-Route::get('/migrate', function () {
-    Artisan::call('migrate');
-    return 'Migration berhasil';
-});
