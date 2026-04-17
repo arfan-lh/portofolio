@@ -11,3 +11,8 @@ Route::get('/project/{id}', [HomeController::class, 'show'])->name('project.show
 
 Route::post('/contact-send', [ContactController::class, 'store'])->name('contact.store');
 
+use App\Models\Project;
+
+Route::get('/cek-project', function () {
+    return Project::all();
+});
