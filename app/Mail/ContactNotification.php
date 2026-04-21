@@ -15,7 +15,7 @@ class ContactNotification extends Mailable
     public function __construct(
         public string $senderName,
         public string $senderEmail,
-        public string $message
+        public string $senderMessage  // ← ganti dari $message ke $senderMessage
     ) {}
 
     public function envelope(): Envelope

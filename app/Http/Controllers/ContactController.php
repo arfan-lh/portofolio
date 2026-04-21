@@ -26,7 +26,7 @@ class ContactController extends Controller
             new ContactNotification(
                 senderName: $request->name,
                 senderEmail: $request->email,
-                message: $request->message
+                message: $request->sendermessage
             )
         );
 

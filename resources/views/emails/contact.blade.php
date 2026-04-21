@@ -18,7 +18,7 @@
         <div class="label">Email</div>
         <div class="value">{{ $senderEmail }}</div>
         <div class="label">Pesan</div>
-        <div class="message-box">{{ $message }}</div>
+        <div class="message-box">{{ $sendermessage }}</div>
     </div>
 </body>
 </html>
