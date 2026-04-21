@@ -11,8 +11,3 @@ Route::get('/project/{id}', [HomeController::class, 'show'])->name('project.show
 
 Route::post('/contact-send', [ContactController::class, 'store'])->name('contact.store');
 
-Route::get('/clear', function () {
-    Artisan::call('config:clear');
-    Artisan::call('cache:clear');
-    return 'Cache cleared';
-});
