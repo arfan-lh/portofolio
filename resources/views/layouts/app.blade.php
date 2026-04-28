@@ -130,7 +130,7 @@
         }
     </style>
 </head>
-<body class="bg-gray-900 text-gray-100 antialiased overflow-x-hidden">
+<body class="bg-gray-900 text-gray-100 antialiased ">
 
     <!-- Navigation Bar - Dark Theme -->
     <nav class="fixed w-full z-50 bg-gray-900/80 backdrop-blur-md border-b border-gray-800 shadow-lg">
