@@ -52,7 +52,7 @@
     </div>
 </section>
 
-<section id="about" class="py-32 bg-gradient-to-b from-black via-gray-900 to-gray-800 relative">
+<section id="about" class="py-32 bg-gradient-to-b from-black via-gray-900 to-gray-800 relative overflow-hidden">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
             <div data-aos="fade-right" data-aos-duration="1000" data-aos-once="false" class="relative w-64 md:w-80 mx-auto">
