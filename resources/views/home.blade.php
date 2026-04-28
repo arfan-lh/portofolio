@@ -59,7 +59,7 @@
                 <div class="absolute -inset-4 bg-gradient-to-r from-blue-600 to-purple-600 rounded-3xl blur-2xl opacity-30"></div>
                 <div class="relative group">
                     <div class="absolute inset-0 bg-gradient-to-br from-blue-600 to-purple-600 rounded-3xl rotate-3 group-hover:rotate-6 transition-transform duration-500"></div>
-                    <img src="{{asset('images/me.jpeg')}}" 
+                    <img src="{{asset('images/me1.png')}}" 
                          alt="Profile" 
                          class="relative rounded-3xl shadow-2xl w-full object-cover border-4 border-gray-800 transform group-hover:scale-[1.02] transition-transform duration-500">
                 </div>
