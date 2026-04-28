@@ -14,7 +14,7 @@
             <span class="text-blue-400 font-semibold text-sm tracking-wider">👋 Halo, Saya Mahasiswa Teknologi Informasi </span>
         </div>
         
-        <h1 class="text-6xl md:text-8xl font-black mb-6 leading-tight" data-aos="fade-up" data-aos-delay="300">
+        <h1 class="text-4xl sm:text-6xl md:text-8xl font-black mb-6 leading-tight" data-aos="fade-up" data-aos-delay="300">
             <span class="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 via-purple-400 to-pink-400 animate-gradient">
                 Membangun Solusi
             </span>
